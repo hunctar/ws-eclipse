@@ -1,0 +1,61 @@
+package curso_programacao;
+
+public class teste_processamento {
+
+	public static void main(String[] args) {
+		
+		//Exemplo 1 - com inteiros
+		
+		int x, y;
+		x = 5;
+		y = 2 * x;
+		
+		System.out.println("Testes de processamento");
+		System.out.println("");
+		System.out.println("Exemplo 1 - Com inteiros: ");
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println("");
+		
+		// Exemplo 2 - acrescentando double
+		double z = 2 * y;
+				
+		System.out.println("Exemplo 2 - Acrescentando double: ");
+		System.out.println(z);
+		
+		
+		//Exemplo 3a - Calculo área de um trapézio utilizando double 
+		double b, B, h, area;
+		b = 6.0;
+		B = 8.0;
+		h = 5.0;
+		area = (b + B) / 2.0 * h;
+		
+		System.out.println("");
+		System.out.println("Exemplo 3a - calculo da área de um trapézio utilizando double:");
+		System.out.printf("A área é: %.2f", area);
+		System.out.println("");
+		System.out.println("");
+		//Exemplo 3b - Calculo área de um trapézio utilizando float 
+		float c, C, i, irea;
+		c = 6f;
+		C = 8f;
+		i = 5f;
+		irea = (c + C) / 2f * i;
+		
+		System.out.println("Exemplo 3b - calculo da área de um trapézio utilizando float:");
+		System.out.printf("A área é: %.2f", irea);
+		System.out.println("");
+		System.out.println("");
+		
+		//Exemplo 4 - convertendo int para double
+		int e, f;
+		double resultado;
+		e = 5;
+		f = 2;
+		resultado = e / f;
+		System.out.printf("Resultado: %.1f", resultado);
+		
+		}
+
+}
