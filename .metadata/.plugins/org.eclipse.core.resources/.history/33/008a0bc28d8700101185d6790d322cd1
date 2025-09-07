@@ -1,0 +1,25 @@
+package curso_programacao;
+import java.util.Scanner;
+
+public class Entrada_dados {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		String x;
+		x = sc.next();
+		System.out.println("Você digitou: " + x);
+		
+		sc.close();
+		
+		Scanner num = new Scanner(System.in);
+
+		int n;
+		n = num.nextInt();
+		System.out.println("Você digitou: " + n);
+		
+		num.close();
+	}
+
+}

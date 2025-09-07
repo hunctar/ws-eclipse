@@ -1,0 +1,38 @@
+package curso_programacao;
+import java.util.Scanner;
+
+public class Exercicio2_6 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		float A, B, C;
+		double triangulo, circulo, trapezio, quadrado, retangulo;
+		double pi = 3.14159;
+		
+		System.out.println("Digite o primeiro número: ");
+		A = sc.nextFloat();
+		System.out.println("Digite o segundo número: ");
+		B = sc.nextFloat();
+		System.out.println("Digite o terceiro número: ");
+		C = sc.nextFloat();
+		
+		triangulo = (A * C) / 2;
+		circulo = (C * C) * pi;
+		trapezio = ((A + B) * C) / 2;
+		quadrado = B * 4;
+		retangulo = (A * B);
+		
+		System.out.printf("Triangulo: %.3f", triangulo);
+		System.out.println();
+		System.out.printf("Círculo: %.3f", circulo);
+		System.out.println();
+		System.out.printf("Trapézio: %.3f", trapezio);
+		System.out.println();
+		System.out.printf("Quadrado: %.3f", quadrado);
+		System.out.println();
+		System.out.printf("Retangulo: %.3f", retangulo);
+	}
+
+}

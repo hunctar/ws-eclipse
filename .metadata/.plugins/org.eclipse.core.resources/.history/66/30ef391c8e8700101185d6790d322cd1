@@ -1,0 +1,19 @@
+package curso_programacao;
+
+import java.util.Scanner;
+
+public class Entrada_int {
+
+	public static void main(String[] args) {
+		
+		Scanner num = new Scanner(System.in);
+
+		int n;
+		n = num.nextInt();
+		System.out.println("Você digitou: " + n);
+		
+		num.close();
+
+	}
+
+}

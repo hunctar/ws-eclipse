@@ -1,0 +1,23 @@
+package curso_programacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Entrada_int {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US); // necessário para usar o ponto ao inves de virgula ao digitar o número
+		Scanner num = new Scanner(System.in);
+
+		//int n;
+		//n = num.nextInt(); Recebe numero inteiro
+		double n;
+		n = num.nextDouble();
+		System.out.printf("Você digitou: %.2f%n", n);
+		
+		num.close();
+
+	}
+
+}
