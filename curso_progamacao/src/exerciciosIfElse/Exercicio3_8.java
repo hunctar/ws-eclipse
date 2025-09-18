@@ -1,0 +1,45 @@
+package exerciciosIfElse;
+import java.util.Scanner;
+
+public class Exercicio3_8 {
+
+	public static void main(String[] args) {
+				
+		Scanner sc = new Scanner(System.in);
+		double renda;
+		double imposto;
+		double faixa1;
+		double faixa2;
+		double faixa3;
+		double liquido;
+		
+		System.out.println("Digite o valor da renda:");
+		renda = sc.nextDouble();
+		
+		if(renda <= 2000.00) {
+			System.out.println("Isento");
+		}
+		else if(renda > 2000.00 && renda <= 3000.00) {
+			faixa1 = (renda - 2000) * 0.08;
+			imposto = faixa1;
+			System.out.printf("Imposto a pagar: %.2f", imposto);
+		}
+		else if(renda > 3000.00 && renda <= 4500.00) {
+			faixa1 = 80.00;
+			faixa2 = (renda - 3000) * 0.18;
+			imposto = faixa1 + faixa2;
+			System.out.printf("Imposto a pagar: %.2f", imposto);
+		}
+		else if(renda > 4500.00) {
+			faixa1 = 80.00;
+			faixa2 = 270.00;
+			faixa3 = (renda - 4500) * 0.28;
+			imposto = faixa1 + faixa2 + faixa3;
+			System.out.printf("Imposto a pagar: %.2f", imposto);
+			System.out.println();
+			liquido = renda - imposto;
+			System.out.printf("Liquido a receber: %.2f", liquido);
+		}
+		sc.close();
+	}
+}

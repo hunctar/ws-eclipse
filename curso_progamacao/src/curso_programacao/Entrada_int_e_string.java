@@ -22,6 +22,7 @@ public class Entrada_int_e_string {
 		System.out.println(y);
 		System.out.println(z);
 
+		sc.close();
 	}
 
 }
