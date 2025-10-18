@@ -1,0 +1,19 @@
+package exerciciosWhile;
+
+public class Enquant02 {
+
+	public static void main(String[] args) {
+
+		int x = 0;
+		int y = 4;
+		
+		while(x < 3) {
+			y = y + 2;
+			x = x + 1;
+			
+			System.out.println("X = " + x + "  -  Y = " + y);
+		}
+		System.out.println("Fim da iteração!");
+	}
+
+}

@@ -1,7 +1,0 @@
-package exerciciosRecebeDados;
-
-
-public record Pojo {
-	
-	private final String nome;
-}
