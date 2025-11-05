@@ -1,0 +1,25 @@
+package exerciciosFor;
+
+import java.util.Scanner;
+
+public class ExercFor_1 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe um número: ");
+		int N = sc.nextInt();
+		int soma = 0;
+		
+		for(int i=0; i<N; i++) {
+			//int x = sc.nextInt();
+			soma = soma + 1;
+			System.out.println(i + " Repetição.");
+		}
+		System.out.println(soma);
+		
+		sc.close();
+	}
+
+}

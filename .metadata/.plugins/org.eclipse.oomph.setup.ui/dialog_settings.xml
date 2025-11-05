@@ -5,6 +5,7 @@
 			<item key="fullPrompt" value="true"/>
 		</section>
 		<section name="ConfirmationPage">
+			<item key="showAll" value="true"/>
 		</section>
 		<section name="ProgressPage">
 		</section>
